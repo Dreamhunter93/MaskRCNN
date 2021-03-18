@@ -16,7 +16,7 @@ keras==2.1.5
 This trained weight is based on the coco data set and can be directly used for instance segmentation of the coco data set.  
 ### Training steps
 #### 1. Prepare the data set
-a. Use labelme to label the data set. Note that when labeling the same class, use different serial numbers. For example, if there are ** two apples in the screen, the label of one apple is apple1 and the other is apple2.**    
+a. Use labelme to label the data set. Note that when labeling the same class, use different serial numbers. For example, if there are two apples in the screen, the label of one apple is apple1 and the other is apple2.  
 b. Put the jpg/png file and json file in the before folder under the root directory after the annotation is completed.  
 c. Then run json_to_dataset.py to generate the train_dataset folder.  
 #### 2. Modify the training parameters.
